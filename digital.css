@@ -1,0 +1,52 @@
+body{
+    font-family: 'Lucida Sans';    
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 20px;   
+    padding: 30px 50px;
+    background-color: rgb(245, 244, 242);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.375);
+}
+
+#font{
+    font-size: 100px;
+    color: grey;
+    padding: none;
+    margin: 50px;
+}
+
+.button{
+   margin: 10px;
+   padding: 3px;
+   border: none;
+   border-radius: 5px;
+   height: 30px;
+   width: 80px;
+}
+
+#dec{
+    background-color: rgb(124, 4, 4);
+    color: white;
+
+}
+
+#res{
+    background-color: rgb(109, 109, 109);
+    color: white;
+    
+}
+
+#inc{
+    background-color: rgb(1, 95, 1);
+    color: white;
+    
+}
